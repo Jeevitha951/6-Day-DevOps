@@ -62,3 +62,10 @@ A combination of nodes.
    sudo su
    apt update -y
 
+## Replica Set in Kubernetes
+
+To maintain a specific number of pods, Kubernetes uses ReplicaSets. A ReplicaSet ensures that the desired number of pod replicas are running at all times, even if some pods fail or get deleted.
+
+### Summary:
+- **Pod**: The smallest deployable unit in Kubernetes.
+- **ReplicaSet**: Ensures that the desired number of pods are continuously running and maintains their availability.
