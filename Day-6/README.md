@@ -5,7 +5,9 @@ In this session, we worked on creating a **Deployment** and **Service** in Kuber
 
 ### Steps to Create Deployment and Service
 
-#### Creating Deployment
+## Day 6: Kubernetes Deployment & Service
+
+### Creating Deployment
 
 To create a deployment, define it in a YAML file and apply it using `kubectl`.
 
@@ -31,7 +33,7 @@ spec:
           image: daviddocker526/ipl-srh:latest
           ports:
             - containerPort: 80
-
+```
 
 ### Service and Scaling
 
@@ -44,4 +46,6 @@ You can scale the deployment by modifying the `replicas` value in the deployment
 - **Service**: Exposes your application to the outside world.
 - **Scaling**: Modify the replicas value to scale the number of pods.
 - **Load Balancer**: Used in the service to balance traffic across multiple pods.
+
+
 
